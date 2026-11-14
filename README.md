@@ -111,6 +111,8 @@ TODO: put your own name in. Refresh the page a few times.
 
 Question 3: what do the `{ }` do inside the JSX? What would show up if you took them away from `{name}`?
 
+The {} set it as a variable. Without the brackets it just displays "name" instead of what name is set to. 
+
 8. A list. Under the `<p>` line, add:
 
 ```jsx
@@ -124,6 +126,8 @@ Question 3: what do the `{ }` do inside the JSX? What would show up if you took 
 TODO: change the three things to your own. The list turns blue because of the `.my-list` style in `App.css`.
 
 Question 4: why is it `className` and not `class` like in HTML?
+
+class is used for defining classes in javascript. So it has to be className so it avoids conflict. 
 
 9. A style written in JavaScript. Above the `return`, add:
 
@@ -143,6 +147,8 @@ and change the `<h1>` line to:
 TODO: pick your own color and size.
 
 Question 5: in CSS it's `font-size`. Why is it `fontSize` here?
+
+To keep the same style as the way other things are named like headingStyle.
 
 Commit: `Part 3: JSX`
 
