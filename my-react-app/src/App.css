@@ -2,3 +2,17 @@
   color: steelblue;
   font-size: 24px;
 }
+body {
+  background-color: #03350e;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.my-list {
+  list-style: none;
+  padding: 20px;
+}
+
+.my-list li {
+  margin: 8px 0;
+}

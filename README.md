@@ -178,6 +178,8 @@ and change the `<h1>` line to:
 
 Question 6: why does the `if` go up here and not inside the `{ }` in the JSX? (Slides: expressions vs. statements.)
 
+JSX can only return one element. if is a script statement. JSX only accept expressions that evalute to a single value. You cannot pass a statement inside {}. 
+
 11. Your own component. Make a new file `src/List.jsx` and paste this:
 
 ```jsx
@@ -211,6 +213,8 @@ Then delete the whole `<ul>` ... `</ul>` from `App.jsx` and put this in its plac
 The page should look the same as before. Your list now lives in its own component.
 
 Question 7: look at `src/main.jsx`. What is the only component it puts on the page? How does your list get there?
+
+<App /> The list gets there because it is imported in the App.jsx file.
 
 Your whole `App.jsx` should look like this now:
 
